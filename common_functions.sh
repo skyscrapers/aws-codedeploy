@@ -30,7 +30,7 @@ export PATH="$PATH:/usr/bin:/usr/local/bin"
 DEBUG=true
 
 # Number of times to check for a resouce to be in the desired state.
-WAITER_ATTEMPTS=60
+WAITER_ATTEMPTS=300
 
 # Number of seconds to wait between attempts for resource to be in a state for instance in ASG.
 WAITER_INTERVAL_ASG=1
